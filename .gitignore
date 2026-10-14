@@ -1,0 +1,51 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Native generated files
+*.orig.*
+android/.gradle/
+android/**/build/
+android/local.properties
+android/.cxx/
+ios/Pods/
+ios/build/
+
+# Signing credentials and private keys
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Debug and logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
